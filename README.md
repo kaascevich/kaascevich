@@ -2,7 +2,7 @@
 
 いらっしゃいませ to my tiny little haven on the internet!
 
-i'm Kaleb, and i'm quite content to float around aimlessly around here. open source is something i quite enjoy, though i'm not afraid to *use* closed source software as long as it's of 🍎-level quality.
+I'm Kaleb, and i'm quite content to float around aimlessly around here. open source is something I quite enjoy, though I'm not afraid to _use_ closed source software as long as it's of 🍎-level quality.
 
 ```swift
 import Foundation
@@ -41,11 +41,11 @@ let favoriteQuote = Quote(
 
 ## other marginally less important details
 
-- i want ***nothing*** to do with web development. JavaScript is just… [bad](https://www.destroyallsoftware.com/talks/wat).
+- I want **_nothing_** to do with web development. JavaScript is just… [bad](https://www.destroyallsoftware.com/talks/wat).
 - my socialization skills are… lacking. it's getting better, but they're still quite lacking. just take that into account if you want to talk to me.
-- i'm not online *too* often, because school exists (which is absolutely not unfortunate in any way other than that).
+- I'm not online *too* often, because school exists (which is absolutely not unfortunate in any way other than that).
 
 ## links
 
 - [my *true* tiny home online](https://kaascevich.carrd.co)
-- [email](mailto:cloths-fringe0s@icloud.com) (don't expect an immediate reply, though — i tend to keep my inbox tidy)
+- [email](mailto:cloths-fringe0s@icloud.com) (don't expect an immediate reply, though — I tend to keep my inbox tidy)

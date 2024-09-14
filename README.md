@@ -2,7 +2,7 @@
 
 いらっしゃいませ to my tiny little haven on the internet!
 
-I'm Kaleb, and i'm quite content to float around aimlessly around here. open source is something I quite enjoy, though I'm not afraid to _use_ closed source software as long as it's of 🍎-level quality.
+I'm Kaleb, and I'm quite content to float around aimlessly around here. open source is something I quite enjoy, though I'm not afraid to _use_ closed source software as long as it's of 🍎-level quality.
 
 ```swift
 import Foundation

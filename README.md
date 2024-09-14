@@ -8,35 +8,47 @@ I'm Kaleb, and I'm quite content to float around aimlessly around here. open sou
 import Foundation
 
 struct Me: Person {
-  let name = Name("Kaleb A. Ascevich", pronounciation: "KAY-lub AICE-uh-vitch")
+  let name = Name("Kaleb A. Ascevich", pronunciation: "KAY-lub AICE-uh-vitch")
   let pronouns = ("he", "him", "his")
-  let birthday = DateComponents(
+  let birthday: Date = DateComponents(
     calendar: .current,
     year: 2007, month: 11, day: 9
   ).date!
 
-  let device: some Device = Mac(.macbookAir, 10, 1)
-  let os: [OS] = [.macOS, .linux("NixOS")],
-  var langs: [Lang] = [.swift],
+  var devices: [_: (any Device, OS)] = [
+    "Kaleb‘s MacBook": (Mac(.macbookAir, 10, 1), .macOS),
+    "macbookair61": (Mac(.macbookAir, 6, 1), .linux("NixOS"))
+  ]
+  var langs: [Lang] = [.swift]
   let shell = Shell.nushell
 
   var apps: [_: [App]] = [
-    "ide": ["Xcode", "VS Code"],
+    "ide": ["Xcode", "VSCodium"],
     "term": ["iTerm2"],
   ]
+}
+
+extension Me {
+  var age: Int {
+    Calendar.current.components(
+      [.year], from: birthday, to: .now
+    ).year!
+  }
 }
 ```
 
 and, most importantly,
 
 ```swift
-let favoriteQuote = Quote(
-  """
-  The people who are crazy enough to think they can change the
-  world, are the ones who do.
-  """,
-  by: Name("Steve Jobs")
-)
+extension Me {
+  let favoriteQuote = Quote(
+    """
+    The people who are crazy enough to think they can change the
+    world, are the ones who do.
+    """,
+    by: Name("Steve Jobs")
+  )
+}
 ```
 
 ## other marginally less important details

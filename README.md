@@ -59,5 +59,5 @@ extension Me {
 
 ## links
 
-- [my *true* tiny home online](https://kaascevich.carrd.co)
+- [my *true* tiny home online](https://kaascevich.github.io)
 - [email](mailto:cloths-fringe0s@icloud.com) (don't expect an immediate reply, though — I tend to keep my inbox tidy)

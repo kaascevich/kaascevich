@@ -6,6 +6,7 @@ I'm Kaleb, and I'm quite content to float around aimlessly around here. open sou
 
 ```swift
 import Foundation
+import PersonDescription
 
 struct Me: Person {
   let name = Name("Kaleb A. Ascevich", pronunciation: "KAY-lub AICE-uh-vitch")
@@ -14,17 +15,38 @@ struct Me: Person {
     calendar: .current,
     year: 2007, month: 11, day: 9
   ).date!
+  let address = Address(state: .florida, country: .usa)
 
-  var devices: [_: (any Device, OS)] = [
-    "Kaleb‘s MacBook": (Mac(.macbookAir, 10, 1), .macOS),
-    "macbookair61": (Mac(.macbookAir, 6, 1), .linux("NixOS"))
-  ]
-  var langs: [Lang] = [.swift]
+  var langs: [Lang] = [.swift, .rust, .nix]
   let shell = Shell.nushell
 
   var apps: [_: [App]] = [
     "ide": ["Xcode", "VSCodium"],
     "term": ["iTerm2"],
+    "music": ["Apple Music"],
+    "browser": ["Safari"],
+  ]
+  var devices: [_: (any Device, [OS])] = [
+    "Kaleb's MacBook": (
+      Mac(.macbookAir, 10, 1),
+      [.macOS]
+    ),
+    "macbookair61": (
+      Mac(.macbookAir, 6, 1),
+      [.linux(distro: "Debian")]
+    ),
+    "zenbook": (
+      PC(.laptop, "ASUS"),
+      [.linux(distro: "Bazzite")]
+    ),
+    "imacg4": (
+      Mac(.powerMac, 4, 2),
+      [.macOS, .macOS]
+    ),
+    "Kaleb's Ally": (
+      PC(.handheld, "ASUS"),
+      [.linux(distro: "Bazzite")]
+    ),
   ]
 }
 

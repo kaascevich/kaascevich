@@ -1,7 +1,9 @@
 > [!IMPORTANT]
 > **As of March 29, 2025, I'm migrating away from GitHub.**
 >
-> From here on out, you can find me [on Codeberg][codeberg] and [on my personal website][website].
+> I'll still be around occasionally to contribute to other projects, but GitHub is no longer my primary platform.
+>
+> From here on out, you can find me and my projects on [Codeberg][codeberg] and [my website][website].
 >
 > [codeberg]: https://codeberg.org/kaascevich
 > [website]: https://kaascevich.codeberg.page

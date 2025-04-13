@@ -1,7 +1,7 @@
 > [!IMPORTANT]
 > **As of March 29, 2025, I'm migrating away from GitHub.**
 >
-> I'll still be around occasionally to contribute to other projects, but GitHub is no longer my primary platform.
+> I'll still be around occasionally to contribute to other projects, but GitHub is no longer my primary platform. As such, most of my projects have been archived. **This does _not_ mean those projects are dead &mdash; they've just moved out.**
 >
 > From here on out, you can find me and my projects on [Codeberg][codeberg] and [my website][website].
 >
